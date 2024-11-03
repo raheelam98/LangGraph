@@ -7,3 +7,5 @@ LangGraph
 
 [GitHub - 00_quickstart_part1_to_part7.ipynb](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
+[colab - Lang Graph part 1 ](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
+
