@@ -71,15 +71,6 @@ tool.invoke("What's a 'node' in LangGraph?")
 
  **`TavilySearchResults(max_results=2)`** initializes a search tool that retrieves and returns up to 2 search results.
 
-```bash
-tools = [search_tool, calculator_tool]
-llm_with_tools = llm.bind_tools(tools)
-```
- **`llm.bind_tools(tools)`** integrates the specified tools with the language model, enabling the model to invoke these tools during its execution.
-
- `llm_with_tools = llm.bind_tools(tools)`
- This line integrates the tools list with the language model llm, resulting in a new instance (llm_with_tools) that can use these tools during its operations.
-
 [ PIAIC GenAI Classes - Lang Graph Part 3 & 4 : 2 Nov -2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
 
 ### Part 3: Adding Memory to the Chatbot
@@ -90,6 +81,15 @@ Compile the graph with memory checkpointing
 **`graph = graph_builder.compile(checkpointer=MemorySaver())`**
 
 #### Integrating tools for search results and memory checkpointing
+
+```bash
+tools = [search_tool, calculator_tool]
+llm_with_tools = llm.bind_tools(tools)
+```
+ **`llm.bind_tools(tools)`** integrates the specified tools with the language model, enabling the model to invoke these tools during its execution.
+
+ `llm_with_tools = llm.bind_tools(tools)`
+ This line integrates the tools list with the language model llm, resulting in a new instance (llm_with_tools) that can use these tools during its operations.
 
 **`graph = graph_builder.compile(checkpointer=MemorySaver()) `** compiles the graph with memory checkpointing, allowing it to save and restore the state of the graph's nodes during its execution.
 
