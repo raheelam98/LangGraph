@@ -56,15 +56,18 @@ Defines a `State` class as a typed dictionary with a single key `messages`, whic
 
 ### Part 2: Enhancing the Chatbot with Tools
 
-
+```bash
 os.environ["TAVILY_API_KEY"] = userdata.get("TAVILY_API_KEY")
+```
 
 Next, define the tool
-
+```bash
 from langchain_community.tools.tavily_search import TavilySearchResults
+
 tool = TavilySearchResults(max_results=2)
 tools = [tool]
 tool.invoke("What's a 'node' in LangGraph?")
+```
 
 
 [ PIAIC GenAI Classes - Lang Graph Part 3 & 4 : 2 Nov -2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
