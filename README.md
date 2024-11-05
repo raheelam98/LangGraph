@@ -54,6 +54,19 @@ Defines a `State` class as a typed dictionary with a single key `messages`, whic
 
  **`graph_builder.add_node("node_name", node_function)`** add a node, which represents a function or operation, to the directed graph
 
+**`graph_builder.compile()`** method creates a CompiledGraph, finalizing the state graph's construction and preparing it for execution with all defined nodes and connections
+ 
+
+ ```bash
+def chatbot(state: State):
+    return {"messages": [llm.invoke(state["messages"])]}
+
+graph_builder.add_node("chatbot", chatbot)
+graph_builder.set_entry_point("chatbot")
+graph_builder.set_finish_point("chatbot")
+graph = graph_builder.compile()
+ ```
+
 ### Part 2: Enhancing the Chatbot with Tools
 
 ```bash
