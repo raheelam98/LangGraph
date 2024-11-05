@@ -165,9 +165,41 @@ graph = graph_builder.compile(checkpointer=MemorySaver())  # Compile the graph w
 ```
 
 ### Part 4: Human-in-the-loop
+#### Freezer and un unfreez node
 #### LangGraph's interrupt_before functionality to always break the tool node.
 First get aprovel and then call tool, example - before going to pay money ask, can i pay the money
 
-**`get_state()`** retrieve the current state or status of a particular object
-**`.next`** find out what the next node to execute
+**`get_state()`**  Retrieve the current state or status of a particular object
+**`.next`** Find out what the next node to execute is
+**`.config`** Show the current configuration of the state
+**`.next`**  Show messages
+
+* `snapshot = graph.get_state(config)`  # Retrieve the current state or status of the graph
+* `snapshot.next`  # Find out what the next node to execute is
+* `snapshot.config`  # Show the current configuration of the state
+
+```bash
+snapshot = graph.get_state(config)  # Retrieve the current state or status of the graph
+snapshot.next  # Find out what the next node to execute is
+snapshot.config  # Show the current configuration of the state
+snapshot.values  # Show values
+snapshot.values['messages']  # Show messages
+
+existing_message = snapshot.values["messages"][-1]  # Find out the last message
+existing_message.pretty_print()  # Print message
+
+existing_message.tool_calls  # Get tool data
+```
+
+```bash
+# `None` will append nothing new to the current state, letting it resume as if it had never been interrupted
+events = graph.stream(None, config, stream_mode="values")  # Stream events based on the current state and configuration
+for event in events:  # Iterate through the streamed events
+    if "messages" in event:  # Check if the event contains messages
+        event["messages"][-1].pretty_print()  # Print the last message in the event
+```
+
+
+
+
 
