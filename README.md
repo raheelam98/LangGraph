@@ -102,5 +102,5 @@ graph = graph_builder.compile(checkpointer=MemorySaver())  # Compile the graph w
 
 ### **Part 4: Human-in-the-loop**
 #### **LangGraph's interrupt_before functionality to always break the tool node.**
-Example before going to pay money ask, can i pay the money
+First get aprovel and then call tool, example - before going to pay money ask, can i pay the money
 
