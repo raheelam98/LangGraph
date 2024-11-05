@@ -45,6 +45,7 @@ llm.invoke("greet me")
 
 graph_builder = StateGraph(State)
  ```
+
 Defines a `State` class as a typed dictionary with a single key `messages`, which is a list annotated with the `add_messages` function.
 
 **`add_messages`** function is responsible for processing and adding messages to the state in the graph
@@ -58,6 +59,7 @@ Defines a `State` class as a typed dictionary with a single key `messages`, whic
 ```bash
 os.environ["TAVILY_API_KEY"] = userdata.get("TAVILY_API_KEY")
 ```
+
 Next, define the tool
 bash```
 from langchain_community.tools.tavily_search import TavilySearchResults
