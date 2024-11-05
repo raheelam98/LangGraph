@@ -48,6 +48,7 @@ llm_with_tools = llm.bind_tools(tools)
 **This code is to create a chatbot using the LangChain framework, integrating tools for search results and memory checkpointing**
 
 ```bash
+
 from typing import Annotated
 
 from langchain_community.tools.tavily_search import TavilySearchResults
@@ -58,6 +59,8 @@ from langgraph.checkpoint.memory import MemorySaver  # Import memory checkpointi
 from langgraph.graph import StateGraph  # Import StateGraph to build the graph
 from langgraph.graph.message import add_messages  # Import add_messages function
 from langgraph.prebuilt import ToolNode  # Import ToolNode
+
+memory = MemorySaver()  # check require to crreate instance
 
 # Define State with messages
 class State(TypedDict):
