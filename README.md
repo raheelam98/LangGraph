@@ -15,6 +15,7 @@ LangGraph
 
 #### **MemorySaver() : it saves it all in-memory**
 Compile the graph with memory checkpointing
+
 **`graph = graph_builder.compile(checkpointer=MemorySaver())`**
 
 #### **Integrating tools for search results and memory checkpointing**
