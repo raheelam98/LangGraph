@@ -172,7 +172,7 @@ First get aprovel and then call tool, example - before going to pay money ask, c
 **`get_state()`**  Retrieve the current state or status of a particular object
 **`.next`** Find out what the next node to execute is
 **`.config`** Show the current configuration of the state
-**`.next`**  Show messages
+**`.value`**  Show all values
 
 * `snapshot = graph.get_state(config)`  # Retrieve the current state or status of the graph
 * `snapshot.next`  # Find out what the next node to execute is
