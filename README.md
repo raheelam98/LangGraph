@@ -9,26 +9,73 @@ LangGraph
 
 [colab - Lang Graph part 1 ](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
-[ PIAIC GenAI Classes - Lang Graph Part 3 & 4 : 2 Nov -2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
+First, install the required packages:
+```bash
+%%capture --no-stderr
+%pip install -U langgraph langsmith langchain_google_genai
+```
 
-### **Part 3: Adding Memory to the Chatbot**
+API keys:
+```bash
+import os
+from google.colab import userdata
+os.environ["LANGCHAIN_API_KEY"] = userdata.get('LANGCHAIN_API_KEY')
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_PROJECT"] = "quickstart"
 
-#### **MemorySaver() : it saves it all in-memory**
-Compile the graph with memory checkpointing
+gemini_api_key = userdata.get('GEMINI_API_KEY')
+```
 
-**`graph = graph_builder.compile(checkpointer=MemorySaver())`**
+```bash
+from langchain_google_genai import ChatGoogleGenerativeAI
 
-#### **Integrating tools for search results and memory checkpointing**
+llm = ChatGoogleGenerativeAI(
+    model="gemini-1.5-flash",
+    max_retries=2,
+    api_key=gemini_api_key
+)
+
+llm.invoke("greet me")
+```
+### Part 1: Build a Basic Chatbot
 
  ```bash
  class State(TypedDict):
     messages: Annotated[list, add_messages]
+
+graph_builder = StateGraph(State)
  ```
 Defines a `State` class as a typed dictionary with a single key `messages`, which is a list annotated with the `add_messages` function.
 
 **`add_messages`** function is responsible for processing and adding messages to the state in the graph
 
  **`StateGraph(State)`** initializes a directed graph structure using the defined `State` schema to manage the flow of data and operations
+
+ **`graph_builder.add_node("node_name", node_function)`** add a node, which represents a function or operation, to the directed graph
+
+### Part 2: Enhancing the Chatbot with Tools
+
+```bash
+os.environ["TAVILY_API_KEY"] = userdata.get("TAVILY_API_KEY")
+```
+Next, define the tool
+bash```
+from langchain_community.tools.tavily_search import TavilySearchResults
+tool = TavilySearchResults(max_results=2)
+tools = [tool]
+tool.invoke("What's a 'node' in LangGraph?")
+```
+
+[ PIAIC GenAI Classes - Lang Graph Part 3 & 4 : 2 Nov -2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
+
+### Part 3: Adding Memory to the Chatbot
+
+#### MemorySaver() : it saves it all in-memory
+Compile the graph with memory checkpointing
+
+**`graph = graph_builder.compile(checkpointer=MemorySaver())`**
+
+#### Integrating tools for search results and memory checkpointing
 
  **`TavilySearchResults(max_results=2)`** initializes a search tool that retrieves and returns up to 2 search results.
 
@@ -40,8 +87,6 @@ llm_with_tools = llm.bind_tools(tools)
 
  `llm_with_tools = llm.bind_tools(tools)`
  This line integrates the tools list with the language model llm, resulting in a new instance (llm_with_tools) that can use these tools during its operations.
-
- **`graph_builder.add_node("node_name", node_function)`** add a node, which represents a function or operation, to the directed graph
 
 **`graph = graph_builder.compile(checkpointer=MemorySaver()) `** compiles the graph with memory checkpointing, allowing it to save and restore the state of the graph's nodes during its execution.
 
@@ -103,7 +148,7 @@ graph_builder.set_entry_point("chatbot")
 graph = graph_builder.compile(checkpointer=MemorySaver())  # Compile the graph with memory checkpointing
 ```
 
-### **Part 4: Human-in-the-loop**
-#### **LangGraph's interrupt_before functionality to always break the tool node.**
+### Part 4: Human-in-the-loop
+#### LangGraph's interrupt_before functionality to always break the tool node.
 First get aprovel and then call tool, example - before going to pay money ask, can i pay the money
 
