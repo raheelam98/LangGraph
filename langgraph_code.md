@@ -79,15 +79,17 @@ graph_builder.add_edge("tools", "chatbot")
 # Set the chatbot as the entry point of the graph
 graph_builder.set_entry_point("chatbot")
 
-# Compile the graph with memory checkpointing  - part 4
+# Compile the graph with memory checkpointing  - part 3
 #graph = graph_builder.compile(checkpointer=MemorySaver())  
 
 memory = MemorySaver()
 
-graph = graph_builder.compile(checkpointer=memory, interrupt_before=["tools"])
-    
-#interrupt_before=["tools"],  # This is new!   
+#interrupt_before=["tools"],  # This is new!   -  part 4
 # Note: can also interrupt **after** actions, if desired.
 # interrupt_after=["tools"]
+
+graph = graph_builder.compile(checkpointer=memory, interrupt_before=["tools"])
+    
+
 
 ```
