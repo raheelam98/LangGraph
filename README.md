@@ -1,6 +1,10 @@
 # LangGraph
 LangGraph
 
+[Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
+
+[Lang Graph - Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
+
 [LangGraph - Documents](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
 
 [LangGraph - Part 1 & 2 : 1 Nov 2024](https://www.youtube.com/watch?v=eZ2yFnGi9hE&t=800s)
@@ -168,7 +172,7 @@ for event in events:  # Iterate through the streamed events
 
 [PIAIC GenAI Classes - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
 
-time 1:40
+time 1:30
 
 
 
