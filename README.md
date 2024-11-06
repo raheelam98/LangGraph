@@ -149,7 +149,9 @@ for event in events:  # Iterate through the streamed events
     if "messages" in event:  # Check if the event contains messages
         event["messages"][-1].pretty_print()  # Print the last message in the event
 ```
-
+### Part 5: Manually Updating the State   
+time 41
+**`update_state()`** method would be used to modify or refresh the current state of the graph based on new information or changes in data.
 
 
 
