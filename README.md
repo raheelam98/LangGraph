@@ -174,5 +174,20 @@ for event in events:  # Iterate through the streamed events
 
 time 1:30
 
+```bash
+class State(TypedDict):
+    messages: Annotated[list, add_messages]
+    ask_human: bool  # This flag is new
+```
+
+```bash
+# We can bind the llm to a tool definition, a pydantic model, or a json schema
+llm_with_tools = llm.bind_tools(tools + [RequestAssistance])
+```
+
+**`[RequestAssistance]`**  class use to relay the user's 'request'
+
+**Note** now llm get two tools first is search tool and second is 
+
 
 
