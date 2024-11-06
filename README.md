@@ -169,6 +169,15 @@ graph = graph_builder.compile(checkpointer=MemorySaver())  # Compile the graph w
 #### LangGraph's interrupt_before functionality to always break the tool node.
 First get aprovel and then call tool, example - before going to pay money ask, can i pay the money
 
+Compile the graph, specifying to **`interrupt_before`** the tools node.
+```bash
+graph = graph_builder.compile(checkpointer=memory, interrupt_before=["tools"])
+    
+    interrupt_before=["tools"],  # This is new!
+    # Note: can also interrupt __after__ tools, if desired.
+    # interrupt_after=["tools"]
+```
+
 **`get_state()`**  Retrieve the current state or status of a particular object
 **`.next`** Find out what the next node to execute is
 **`.config`** Show the current configuration of the state
