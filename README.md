@@ -106,64 +106,6 @@ llm_with_tools = llm.bind_tools(tools)
 
 **`graph = graph_builder.compile(checkpointer=MemorySaver()) `** compiles the graph with memory checkpointing, allowing it to save and restore the state of the graph's nodes during its execution.
 
-**This code is to create a chatbot using the LangChain framework, integrating tools for search results and memory checkpointing**
-
-```bash
-
-from typing import Annotated
-
-from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain_core.messages import BaseMessage
-from typing_extensions import TypedDict
-
-from langgraph.checkpoint.memory import MemorySaver  # Import memory checkpointing
-from langgraph.graph import StateGraph  # Import StateGraph to build the graph
-from langgraph.graph.message import add_messages  # Import add_messages function
-from langgraph.prebuilt import ToolNode  # Import ToolNode
-
-memory = MemorySaver()  # check require to crreate instance
-
-# Define State with messages
-class State(TypedDict):
-    messages: Annotated[list, add_messages]
-
-# Initialize the StateGraph with State
-graph_builder = StateGraph(State)
-
-# Initialize the search tool and list of tools
-tool = TavilySearchResults(max_results=2)
-tools = [tool]
-
-# Initialize the language model and bind it with tools
-llm_with_tools = llm.bind_tools(tools)
-
-# Define the chatbot function to invoke the language model
-def chatbot(state: State):
-    return {"messages": [llm_with_tools.invoke(state["messages"])]}
-
-# Add the chatbot node to the graph
-graph_builder.add_node("chatbot", chatbot)
-
-# Add the tools node to the graph
-tool_node = ToolNode(tools=[tool])
-graph_builder.add_node("tools", tool_node)
-
-# Add conditional edges between nodes
-graph_builder.add_conditional_edges(
-    "chatbot",
-    tools_condition,
-)
-
-# Add an edge from the tools node to the chatbot node
-graph_builder.add_edge("tools", "chatbot")
-
-# Set the chatbot as the entry point of the graph
-graph_builder.set_entry_point("chatbot")
-
-# Compile the graph with memory checkpointing
-graph = graph_builder.compile(checkpointer=MemorySaver())  # Compile the graph with memory checkpointing
-```
-
 ### Part 4: Human-in-the-loop
 #### Freezer and un unfreez node
 #### LangGraph's interrupt_before functionality to always break the tool node.
