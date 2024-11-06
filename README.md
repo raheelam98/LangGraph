@@ -5,9 +5,9 @@ LangGraph
 
 [Lang Graph - Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
 
-[LangGraph - Documents](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
+[PIAIC GenAI Classes - Part 1 & 2 : 1 Nov 2024](https://www.youtube.com/watch?v=eZ2yFnGi9hE&t=800s)
 
-[LangGraph - Part 1 & 2 : 1 Nov 2024](https://www.youtube.com/watch?v=eZ2yFnGi9hE&t=800s)
+[PIAIC GenAI Classes - Part 3,4,5,6 - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
 
 [GitHub - 00_quickstart_part1_to_part7.ipynb](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
