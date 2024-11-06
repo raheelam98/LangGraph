@@ -88,6 +88,10 @@ tool.invoke("What's a 'node' in LangGraph?")
 
 ### Part 3: Adding Memory to the Chatbot
 
+[PIAIC GenAI Classes - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
+
+time 04
+
 #### MemorySaver() : it saves it all in-memory
 Compile the graph with memory checkpointing
 
@@ -107,6 +111,11 @@ llm_with_tools = llm.bind_tools(tools)
 **`graph = graph_builder.compile(checkpointer=MemorySaver()) `** compiles the graph with memory checkpointing, allowing it to save and restore the state of the graph's nodes during its execution.
 
 ### Part 4: Human-in-the-loop
+
+[PIAIC GenAI Classes - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
+
+time 21
+
 #### Freezer and un unfreez node
 #### LangGraph's interrupt_before functionality to always break the tool node.
 First get aprovel and then call tool, example - before going to pay money ask, can i pay the money
@@ -150,7 +159,11 @@ for event in events:  # Iterate through the streamed events
         event["messages"][-1].pretty_print()  # Print the last message in the event
 ```
 ### Part 5: Manually Updating the State   
+
+[PIAIC GenAI Classes - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
+
 time 41
+
 **`update_state()`** method would be used to modify or refresh the current state of the graph based on new information or changes in data.
 
 
