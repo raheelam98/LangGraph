@@ -164,6 +164,11 @@ for event in events:  # Iterate through the streamed events
 
 **`update_state()`** method would be used to modify or refresh the current state of the graph based on new information or changes in data.
 
+### Part 6: Customizing State
+
+[PIAIC GenAI Classes - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
+
+time 1:30
 
 
 
