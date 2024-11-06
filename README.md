@@ -168,7 +168,7 @@ for event in events:  # Iterate through the streamed events
 
 [PIAIC GenAI Classes - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
 
-time 1:30
+time 1:40
 
 
 
