@@ -1,5 +1,7 @@
 # LangGraph
-LangGraph
+
+### Agentic Chatbots:
+Autonomous systems that perform tasks, make decisions, and interact with users with minimal human intervention. They leverage advanced AI to understand context, learn from interactions, and provide personalized response
 
 [Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
 
@@ -13,17 +15,8 @@ LangGraph
 
 [PIAIC GenAI Classes - Revision Part 1 to 6  and Part 7 : video - Nov 7, 2024](https://www.youtube.com/watch?v=hRzyWYUpJKs)
 
-[colab - Lang Graph ](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
+[colab - Lang Graph - Chatbots Agent](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
-# check
-
-[PIAIC GenAI Classes - Part 1 & 2 : 1 Nov 2024](https://www.youtube.com/watch?v=eZ2yFnGi9hE&t=800s)
-
-[PIAIC GenAI Classes - Part 3,4,5,6 - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
-
-[GitHub - 00_quickstart_part1_to_part7.ipynb](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
-
-[colab - Lang Graph ](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
 First, install the required packages:
 ```bash
