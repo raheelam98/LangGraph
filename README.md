@@ -86,20 +86,37 @@ graph = graph_builder.compile()
 
 ### Part 2: Enhancing the Chatbot with Tools
 
+#### Integrating tools for search results
+
 ```bash
-os.environ["TAVILY_API_KEY"] = userdata.get("TAVILY_API_KEY")
+%%capture --no-stderr
+%pip install -U tavily-python langchain_community
 ```
 
 Next, define the tool
-```bash
-from langchain_community.tools.tavily_search import TavilySearchResults
 
+**`TavilySearchResults(max_results=2)`** initializes a search tool that retrieves and returns up to 2 search results.
+
+Initializes a search tool that retrieves and returns up to 2 search results.
+```bash
 tool = TavilySearchResults(max_results=2)
 tools = [tool]
-tool.invoke("What's a 'node' in LangGraph?")
 ```
 
- **`TavilySearchResults(max_results=2)`** initializes a search tool that retrieves and returns up to 2 search results.
+**`bind_tools()`** Integrates the specified tools with the language model, enabling the model to invoke these tools during its execution
+
+```bash
+llm_with_tools = llm.bind_tools(tools)
+```
+This line integrates the tools list with the language model llm, resulting in a new instance (llm_with_tools) that can use these tools during its operations.
+
+**`add_conditional_edges`** Define conditional edges for the chatbot node based on tool usage
+```bash
+graph_builder.add_conditional_edges(
+    "chatbot",
+    tools_condition
+)
+```
 
 [ PIAIC GenAI Classes - Lang Graph Part 3 & 4 : 2 Nov -2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
 
@@ -114,16 +131,7 @@ Compile the graph with memory checkpointing
 
 **`graph = graph_builder.compile(checkpointer=MemorySaver())`**
 
-#### Integrating tools for search results and memory checkpointing
-
-```bash
-tools = [search_tool, calculator_tool]
-llm_with_tools = llm.bind_tools(tools)
-```
- **`llm.bind_tools(tools)`** integrates the specified tools with the language model, enabling the model to invoke these tools during its execution.
-
- `llm_with_tools = llm.bind_tools(tools)`
- This line integrates the tools list with the language model llm, resulting in a new instance (llm_with_tools) that can use these tools during its operations.
+#### Memory checkpointing
 
 **`graph = graph_builder.compile(checkpointer=MemorySaver()) `** compiles the graph with memory checkpointing, allowing it to save and restore the state of the graph's nodes during its execution.
 
