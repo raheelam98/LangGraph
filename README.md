@@ -46,6 +46,34 @@ llm = ChatGoogleGenerativeAI(
 
 llm.invoke("greet me")
 ```
+
+## Tool Usage in Agentic Chatbots
+
+```bash
+ class State(TypedDict):
+    messages: Annotated[list, add_messages]
+ ```
+Defines a `State` class as a typed dictionary with a single key `messages`, which is a list annotated with the `add_messages` function.
+
+**`add_messages`** function is responsible for processing and adding messages to the state in the graph
+
+ **`StateGraph(State)`** initializes a directed graph structure using the defined `State` schema to manage the flow of data and operations
+
+ **`TavilySearchResults(max_results=2)`** initializes a search tool that retrieves and returns up to 2 search results.
+
+```bash
+tools = [search_tool, calculator_tool]
+llm_with_tools = llm.bind_tools(tools)
+```
+ **`llm.bind_tools(tools)`** integrates the specified tools with the language model, enabling the model to invoke these tools during its execution.
+
+ **`llm_with_tools = llm.bind_tools(tools)`**
+ This line integrates the tools list with the language model llm, resulting in a new instance (llm_with_tools) that can use these tools during its operations.
+
+ **`graph_builder.add_node("node_name", node_function)`** add a node, which represents a function or operation, to the directed graph
+
+**`graph = graph_builder.compile(checkpointer=MemorySaver()) `** compiles the graph with memory checkpointing, allowing it to save and restore the state of the graph's nodes during its execution.
+
 ### Part 1: Build a Basic Chatbot
 
  ```bash
