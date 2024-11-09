@@ -55,6 +55,8 @@ llm.invoke("greet me")
  ```
 Defines a `State` class as a typed dictionary with a single key `messages`, which is a list annotated with the `add_messages` function.
 
+**`add_messages`** : append new messages to the existing list of messages in the state.
+
 **`add_messages`** function is responsible for processing and adding messages to the state in the graph
 
  **`StateGraph(State)`** initializes a directed graph structure using the defined `State` schema to manage the flow of data and operations
