@@ -62,14 +62,11 @@ GenerativeModel("pass-model")
 **%%time** use magic function ( show the utilization of CPU and time)
 
 **Langchain Schema Type:**
+* **LLM** - `AIMessage`
+* **User** - `HumanMessage`
+* **System Instraction** - `SystemMessage`
 
-**LLM** - AIMessage
-
-**User** - HumanMessage
-
-**System Instraction** - SystemMessage
-
-**Nodes, Edges, Graphs**
+#### **Nodes, Edges, Graphs**
 
 Nodes are just python functions.   
 
