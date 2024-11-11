@@ -69,6 +69,18 @@ GenerativeModel("pass-model")
 
 **System Instraction** - SystemMessage
 
+## Tutorial
 
+**Gemini_API_python**
+
+[Q3,Q4,Q5 - Class -11: What are AI Agents and What is AI Agentic Architecture](https://www.youtube.com/watch?v=Sj9c5lX2Y6U&t=7196s)
+
+**LangChain_with_Gemini**
+
+[Q3,Q4,Q5 - Class -13: Messages Classes, LLM Tool Call and Conditional Edges in LangGraph Explained](https://www.youtube.com/watch?v=Rz4mD3KMBe8)
+
+## Tutorial 
+
+[Google AI Python SDK for the Gemini API](https://pypi.org/project/google-generativeai/)
 
 
