@@ -1,6 +1,6 @@
 #### Gemini_API_python
 
-**SDK (Software Development Kit)**
+**SDK (Software Development Kit)** 
 An SDK is a set of tools to build software for a particular platform. These tools also allow an app developer to build an app which can integrate with another program
 
 ```bash
