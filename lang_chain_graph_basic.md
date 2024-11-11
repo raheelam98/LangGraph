@@ -167,8 +167,6 @@ Note:- In LangGraph, a reducible function combines results from multiple nodes i
 
 ## Tutorial
 
-## Tutorial
-
 **Gemini_API_python**
 
 [Q3,Q4,Q5 - Class -11: What are AI Agents and What is AI Agentic Architecture](https://www.youtube.com/watch?v=Sj9c5lX2Y6U&t=7196s)
@@ -179,8 +177,6 @@ Note:- In LangGraph, a reducible function combines results from multiple nodes i
 
 [Q3,Q4,Q5 - Class -13: Messages Classes, LLM Tool Call and Conditional Edges in LangGraph Explained](https://www.youtube.com/watch?v=Rz4mD3KMBe8)
 
-
-## Tutorial 
 
 [Google AI Python SDK for the Gemini API](https://pypi.org/project/google-generativeai/)
 
