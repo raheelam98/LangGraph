@@ -19,7 +19,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 ### Course Notebooks
 
-**Model 1 **
+**Model 1**
 00_edges_nodes_graph.ipynb, 01_conditional_edge.ipynb  
 
 [Class-01: Mastering LangGraph In a New Way: Core Concepts & Implementation Node, Edges, States - Nov 8, 2024](https://www.youtube.com/watch?v=jIX9P12IkQM)
