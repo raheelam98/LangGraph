@@ -20,9 +20,14 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 ### Course Notebooks
 
 **Model 1**
-00_edges_nodes_graph.ipynb, 01_conditional_edge.ipynb  
+00_edges_nodes_graph.ipynb,  01_conditional_edge.ipynb  
 
 [Class-01: Mastering LangGraph In a New Way: Core Concepts & Implementation Node, Edges, States - Nov 8, 2024](https://www.youtube.com/watch?v=jIX9P12IkQM)
+
+**Model 1**  
+2.1_tools_messages.ipynb,   
+
+[Class-02: Mastering LangGraph In a New Way: LLM with Tool Calling, Chains & Reducers - Nov 9, 2024 ](https://www.youtube.com/watch?v=g1GqJx2k1Hk)
 
 [course-notebooks - rm github](https://github.com/raheelam98/LangGraph/tree/main/03_langchain_ecosystem/langgraph/course-notebooks)
 
