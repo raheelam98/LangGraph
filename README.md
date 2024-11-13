@@ -35,7 +35,12 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Lang Graph - Example](https://langchain-ai.github.io/langgraph/)
 
+**Module 1**  2.1_tools_messages.ipynb
+
 [Q3,Q4,Q5 - Class -14: LangGraph - Six steps to create a graph : Agentic Architecture -  Oct 17, 2024](https://www.youtube.com/watch?v=7U_9hCE3Prs)
+
+
+
 
 
 First, install the required packages:
