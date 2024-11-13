@@ -5,8 +5,6 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
 
-[Lang Graph - Example](https://langchain-ai.github.io/langgraph/)
-
 [Lang Graph - Agentic Chatbot : Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
 
 [Building Chatbots with LangGraph - Github](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/tree/main/03_langchain_ecosystem/langgraph/chatbot)
@@ -32,6 +30,13 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 [Class-02: Mastering LangGraph In a New Way: LLM with Tool Calling, Chains & Reducers - Nov 9, 2024 ](https://www.youtube.com/watch?v=g1GqJx2k1Hk)
 
 [course-notebooks - rm github](https://github.com/raheelam98/LangGraph/tree/main/03_langchain_ecosystem/langgraph/course-notebooks)
+
+**Lang Graph Old Tutorials**
+
+[Lang Graph - Example](https://langchain-ai.github.io/langgraph/)
+
+[Q3,Q4,Q5 - Class -14: LangGraph - Six steps to create a graph : Agentic Architecture -  Oct 17, 2024](https://www.youtube.com/watch?v=7U_9hCE3Prs)
+
 
 First, install the required packages:
 ```bash
