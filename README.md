@@ -31,17 +31,20 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [course-notebooks - rm github](https://github.com/raheelam98/LangGraph/tree/main/03_langchain_ecosystem/langgraph/course-notebooks)
 
-**Lang Graph Old Tutorials**
+### Lang Graph Old Tutorial (Course Notebooks)
 
 [Lang Graph - Example](https://langchain-ai.github.io/langgraph/)
 
-**Module 1**  2.1_tools_messages.ipynb
+**Module 1**  01_conditional_edge.ipynb,  2.1_tools_messages.ipynb, 2.2_chains_reducers.ipynb, 3_router.ipynb, 4_agent.ipynb
 
 [Q3,Q4,Q5 - Class -14: LangGraph - Six steps to create a graph : Agentic Architecture -  Oct 17, 2024](https://www.youtube.com/watch?v=7U_9hCE3Prs)
 
 
+[Q3,Q4,Q5 - Class -15: Introduction to GQL, OpenCanvas, OpenAI Canvas, Claude Artifact, Hybrid UI. - Oct 24, 2024](https://www.youtube.com/watch?v=MiuXEaws8wc)
 
 
+
+#### Documents RM
 
 First, install the required packages:
 ```bash
