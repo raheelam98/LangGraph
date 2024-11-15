@@ -19,23 +19,26 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 ### Course Notebooks
 
-**Module 1** 
-00_edges_nodes_graph.ipynb,  01_conditional_edge.ipynb  
+
+[course-notebooks - rm github](https://github.com/raheelam98/LangGraph/tree/main/03_langchain_ecosystem/langgraph/course-notebooks)
+
+**Module 1 :** 00_edges_nodes_graph.ipynb,  01_conditional_edge.ipynb  
 
 [Class-01: Mastering LangGraph In a New Way: Core Concepts & Implementation Node, Edges, States - Nov 8, 2024](https://www.youtube.com/watch?v=jIX9P12IkQM)
 
-**Module 1**  
-2.1_tools_messages.ipynb,  2.2_chains_reducers.ipynb 
+**Module 1 :**  2.1_tools_messages.ipynb,  2.2_chains_reducers.ipynb 
 
 [Class-02: Mastering LangGraph In a New Way: LLM with Tool Calling, Chains & Reducers - Nov 9, 2024 ](https://www.youtube.com/watch?v=g1GqJx2k1Hk)
 
-[course-notebooks - rm github](https://github.com/raheelam98/LangGraph/tree/main/03_langchain_ecosystem/langgraph/course-notebooks)
+**Module 1 :**  3_router.ipynb, 
+
+[PIAIC GenAI Classes - Nov 14, 2024 ](https://www.youtube.com/watch?v=gfESO1xI044)
 
 ### Lang Graph Old Tutorial (Course Notebooks)
 
 [Lang Graph - Example](https://langchain-ai.github.io/langgraph/)
 
-**Module 1**  01_conditional_edge.ipynb,  2.1_tools_messages.ipynb, 2.2_chains_reducers.ipynb, 3_router.ipynb, 4_agent.ipynb
+**Module 1 :**  01_conditional_edge.ipynb,  2.1_tools_messages.ipynb, 2.2_chains_reducers.ipynb, 3_router.ipynb, 4_agent.ipynb
 
 [Q3,Q4,Q5 - Class -14: LangGraph - Six steps to create a graph : Agentic Architecture -  Oct 17, 2024](https://www.youtube.com/watch?v=7U_9hCE3Prs)
 
