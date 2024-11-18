@@ -46,7 +46,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 [Q3,Q4,Q5 - Class -15: Introduction to GQL, OpenCanvas, OpenAI Canvas, Claude Artifact, Hybrid UI. - Oct 24, 2024](https://www.youtube.com/watch?v=MiuXEaws8wc)
 
 
-[LangGraph_Lectures](https://github.com/Wania-Kazmi/LangGraph_Lectures/tree/main)
+[LangGraph_Lectures - github](https://github.com/Wania-Kazmi/LangGraph_Lectures/tree/main)
 
 #### Documents RM
 
