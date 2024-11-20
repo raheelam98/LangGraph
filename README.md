@@ -5,7 +5,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
 
-[Lang Graph - Agentic Chatbot : Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
+[Lang Graph - Tutorial - Agentic Chatbot : Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
 
 [Building Chatbots with LangGraph - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/09_langchain_ecosystem)
 
@@ -36,7 +36,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 ### Lang Graph Old Tutorial (Course Notebooks)
 
-[Lang Graph - Example](https://langchain-ai.github.io/langgraph/)
+[Lang Graph - Tutorial - Example](https://langchain-ai.github.io/langgraph/)
 
 **Module 1 :**  01_conditional_edge.ipynb,  2.1_tools_messages.ipynb, 2.2_chains_reducers.ipynb, 3_router.ipynb, 4_agent.ipynb
 
