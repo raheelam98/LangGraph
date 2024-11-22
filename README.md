@@ -5,7 +5,9 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
 
-[Building Chatbots with LangGraph - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/09_langchain_ecosystem)
+[learn-agentic-ai - 09_langchain_ecosystem - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/09_langchain_ecosystem)
+
+[learn-agentic-ai - 10_advanced_features - Github](https://github.com/panaversity/learn-agentic-ai/tree/main/10_advanced_features)
 
 [Lang Graph - Chatbots Agent - rm github](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
