@@ -27,7 +27,11 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 [Class-03: Mastering LangGraph In a New Way: Router and Simple ReAct Agent - Nov 14, 2024 ](https://www.youtube.com/watch?v=gfESO1xI044)
 
 
-**Module 1 :**  3_router.ipynb(Revision), 4_agent.ipynb(Revision), 
+**Module 1 :**  3_router.ipynb(Revision), 4_agent.ipynb(Revision),5_agent_memory.ipynb
+
+**advanced_features :** rag, fine tunning, function calling
+
+[learn-agentic-ai - 10_advanced_features - Github](https://github.com/panaversity/learn-agentic-ai/tree/main/10_advanced_features)
 
 [Class-04: Mastering LangGraph In a New Way: Memory, RAG, Fine Tuning, GraphRAG, AI Agents - Nov 15, 2024](https://www.youtube.com/watch?v=Zf2C8A6RmJE&t=8143s)
 
