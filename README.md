@@ -42,7 +42,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Class-05: Mastering LangGraph In a New Way: Agent Deployment, State Schema, State Reducers - Nov 16, 2024 ](https://www.youtube.com/watch?v=i_WfLkZsGfs)
 
-**Module 2 ??:** 3_multiple_schemas.ipynb, 
+**Module 2 ??:** 3_multiple_schemas.ipynb, 4_trim_filter_messages.ipynb, 
 
 [PIAIC GenAI Classes - Nov 21, 2024 ](https://www.youtube.com/watch?v=rBPZwQ7jlBo)
 
