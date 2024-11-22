@@ -46,7 +46,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [PIAIC GenAI Classes - Nov 21, 2024 ](https://www.youtube.com/watch?v=rBPZwQ7jlBo)
 
-**Module 2 :**  3_multiple_schemas.ipynb,  4_trim_filter_messages.ipynb
+**Module 2 :**  5_chatbot_summarization.ipynb, 6_chatbot_external_memory.ipynb
 
 [PIAIC GenAI Classes - Nov 22, 2024 ](https://www.youtube.com/watch?v=yd6mr-2SSIo)
 
