@@ -9,7 +9,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Lang Graph - Chatbots Agent - rm github](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
-## Course Notebooks 
+## Course Notebooks - Detail
 **Ameen and Wania** 
 
 [course-notebooks - rm github](https://github.com/raheelam98/LangGraph/tree/main/03_langchain_ecosystem/langgraph/course-notebooks)
@@ -26,7 +26,6 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Class-03: Mastering LangGraph In a New Way: Router and Simple ReAct Agent - Nov 14, 2024 ](https://www.youtube.com/watch?v=gfESO1xI044)
 
-
 **Module 1 :**  3_router.ipynb(Revision), 4_agent.ipynb(Revision),5_agent_memory.ipynb
 
 **advanced_features :** rag, fine tunning, function calling
@@ -35,11 +34,13 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Class-04: Mastering LangGraph In a New Way: Memory, RAG, Fine Tuning, GraphRAG, AI Agents - Nov 15, 2024](https://www.youtube.com/watch?v=Zf2C8A6RmJE&t=8143s)
 
-**Module ?? :**
+**Module 1 :** 6_deployment.ipynb
+
+**Module 2 :** 1_state_schema.ipynb, 2_state_reducers.ipynb, 
 
 [Class-05: Mastering LangGraph In a New Way: Agent Deployment, State Schema, State Reducers - Nov 16, 2024 ](https://www.youtube.com/watch?v=i_WfLkZsGfs)
 
-**Module 2 :** 3_multiple_schemas.ipynb, 
+**Module 2 ??:** 3_multiple_schemas.ipynb, 
 
 [PIAIC GenAI Classes - Nov 21, 2024 ](https://www.youtube.com/watch?v=rBPZwQ7jlBo)
 
