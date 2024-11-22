@@ -46,7 +46,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [PIAIC GenAI Classes - Nov 21, 2024 ](https://www.youtube.com/watch?v=rBPZwQ7jlBo)
 
-## Lang Graph - chatbot - LangGraph Quick Start
+## Chatbot - LangGraph Quick Start
 
 [Lang Graph - Tutorial - Agentic Chatbot : Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
 
