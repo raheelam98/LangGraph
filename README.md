@@ -5,20 +5,11 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
 
-[Lang Graph - Tutorial - Agentic Chatbot : Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
-
 [Building Chatbots with LangGraph - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/09_langchain_ecosystem)
-
-[Class-1:Advance Chatbot with LangGraph: Part-1_Basic Chatbot and Part-2_Chatbot with Tools - 1 Nov 2024](https://www.youtube.com/watch?v=eZ2yFnGi9hE&t=800s)
-
-[Class-2:Advance Chatbot with LangGraph: Part-3: Adding Memory & Part-4: Human in the Loop - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
-
-[Class-3: Advance Chatbot with LangGraph - Revision Part 1 to 6  and Part 7 - Nov 7, 2024](https://www.youtube.com/watch?v=hRzyWYUpJKs)
 
 [Lang Graph - Chatbots Agent - rm github](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
-### Course Notebooks
-
+## Course Notebooks
 
 [course-notebooks - rm github](https://github.com/raheelam98/LangGraph/tree/main/03_langchain_ecosystem/langgraph/course-notebooks)
 
@@ -33,6 +24,21 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 **Module 1 :**  3_router.ipynb, 
 
 [PIAIC GenAI Classes - Nov 14, 2024 ](https://www.youtube.com/watch?v=gfESO1xI044)
+
+**Module 2 :** 3_multiple_schemas.ipynb, 
+
+[PIAIC GenAI Classes - Nov 21, 2024 ](https://www.youtube.com/watch?v=rBPZwQ7jlBo)
+
+## Lang Graph - chatbot - LangGraph Quick Start
+
+[Lang Graph - Tutorial - Agentic Chatbot : Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
+
+[Class-1:Advance Chatbot with LangGraph: Part-1_Basic Chatbot and Part-2_Chatbot with Tools - 1 Nov 2024](https://www.youtube.com/watch?v=eZ2yFnGi9hE&t=800s)
+
+[Class-2:Advance Chatbot with LangGraph: Part-3: Adding Memory & Part-4: Human in the Loop - Nov 2, 2024](https://www.youtube.com/watch?v=UhfcycocwkU&t=138s)
+
+[Class-3: Advance Chatbot with LangGraph - Revision Part 1 to 6  and Part 7 - Nov 7, 2024](https://www.youtube.com/watch?v=hRzyWYUpJKs)
+
 
 ### Lang Graph Old Tutorial (Course Notebooks)
 
