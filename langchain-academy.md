@@ -2,7 +2,7 @@
   ## langchain-academy
 
 [LangChain Academy](https://academy.langchain.com/courses/intro-to-langgraph)
-
+  
 [langchain-academy - Github](https://github.com/langchain-ai/langchain-academy/tree/main)
 
 [langgraph/course-notebooks](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/blob/main/03_langchain_ecosystem/langgraph/course-notebooks/module-0/basics.ipynb)
