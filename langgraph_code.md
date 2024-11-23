@@ -25,7 +25,7 @@ llm = ChatGoogleGenerativeAI(
 )
 
 llm.invoke("greet me")
-```
+```  
 
 **This code is to create a chatbot using the LangChain framework, integrating tools for search results, memory checkpointing (part 3), interrup_node (part4)**
 
