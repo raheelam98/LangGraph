@@ -1,5 +1,5 @@
 
-  ## langchain-academy
+  ## langchain-academy  
 
 [LangChain Academy](https://academy.langchain.com/courses/intro-to-langgraph)
   
