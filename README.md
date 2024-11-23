@@ -50,6 +50,10 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [PIAIC GenAI Classes - Nov 22, 2024 ](https://www.youtube.com/watch?v=yd6mr-2SSIo)
 
+**Module 2 ?? :**
+
+[ - Nov 23, 2024]
+
 ## Chatbot - LangGraph Quick Start
 
 [Lang Graph - Tutorial - Agentic Chatbot : Quick Start](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
