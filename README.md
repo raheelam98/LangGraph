@@ -7,7 +7,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [learn-agentic-ai - 09_langchain_ecosystem - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/09_langchain_ecosystem)
 
-[learn-agentic-ai - 10_advanced_features - Github](https://github.com/panaversity/learn-agentic-ai/tree/main/10_advanced_features)
+[learn-agentic-ai - 10_advanced_features - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/10_advanced_features)
 
 [LangGraph Tutorial - Panaversity Nov 2024](https://www.youtube.com/playlist?list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA)
 
