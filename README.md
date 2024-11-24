@@ -9,6 +9,8 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [learn-agentic-ai - 10_advanced_features - Github](https://github.com/panaversity/learn-agentic-ai/tree/main/10_advanced_features)
 
+[LangGraph Tutorial - Panaversity Video Classes - Nov 2024](https://www.youtube.com/playlist?list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA)
+
 [Lang Graph - Chatbots Agent - rm github](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
 ## Course Notebooks - Detail
