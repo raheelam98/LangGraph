@@ -47,7 +47,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 **Module 1 :** 6_deployment.ipynb
 
-**Module 2 :** 1_state_schema.ipynb, 2_state_reducers.ipynb, 
+**Module 2 :** 1_state_schema.ipynb, 2_state_reducers.ipynb,   
 
 [Class-05: Mastering LangGraph In a New Way: Agent Deployment, State Schema, State Reducers - Nov 16, 2024 ](https://www.youtube.com/watch?v=i_WfLkZsGfs)
 
