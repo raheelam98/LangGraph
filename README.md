@@ -3,15 +3,17 @@
 ### Agentic Chatbots: 
 Autonomous systems that perform tasks, make decisions, and interact with users with minimal human intervention. They leverage advanced AI to understand context, learn from interactions, and provide personalized response
 
-[Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
+[LangChain Academy - Course](https://academy.langchain.com/courses/intro-to-langgraph)
+
+[LangChain Academy - Lang Graph - Tutorials](https://langchain-ai.github.io/langgraph/tutorials/)
+
+[LangChain Academy - LangGraph Quick Start - Chatbot](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
+
+[LangGraph Tutorial - Panaversity Classes](https://www.youtube.com/playlist?list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA)
 
 [learn-agentic-ai - 09_langchain_ecosystem - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/09_langchain_ecosystem)
 
 [learn-agentic-ai - 10_advanced_features - Panaversity Github](https://github.com/panaversity/learn-agentic-ai/tree/main/10_advanced_features)
-
-[LangGraph Tutorial - Panaversity Nov 2024](https://www.youtube.com/playlist?list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA)
-
-[Building Chatbots with LangGraph -  Panaversity 2024](https://www.youtube.com/playlist?list=PL0vKVrkG4hWqLVLgvpMmBgqiQgznNF-GF)
 
 [Lang Graph - Chatbots Agent - rm github](https://github.com/raheelam98/LangGraph/blob/main/03_langchain_ecosystem/langgraph/chatbot/docs/00_quickstart_part1_to_part7.ipynb)
 
