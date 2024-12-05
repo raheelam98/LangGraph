@@ -60,7 +60,7 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [Class07: LangGraph:- Messages Summarization, Short Term Local Memory with Threads/Checkpointers - Nov 22, 2024](https://www.youtube.com/watch?v=yd6mr-2SSIo&list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA&index=7&t=440s)
 
-**Module 2 :** 6.0_chatbot_external_memory, 
+**Module 2 :** 6.0_chatbot_external_memory , 6.1_chatbot_external_memory_with_our_db_file.ipynb
 
 [Class08:LangGraph: External Memory with External DB, Introduction to Agentic RAG - Nov 23, 2024](https://www.youtube.com/watch?v=ooU238RcOdo)
 
