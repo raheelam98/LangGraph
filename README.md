@@ -60,9 +60,9 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 
 [PIAIC GenAI Classes - Nov 22, 2024 ](https://www.youtube.com/watch?v=yd6mr-2SSIo)
 
-**Module 2 ?? :**
+**Module 2 :** 6.0_chatbot_external_memory, 
 
-[PIAIC GenAI Classes - Nov 23, 2024](https://www.youtube.com/watch?v=ooU238RcOdo)
+[Class08:LangGraph: External Memory with External DB, Introduction to Agentic RAG - Nov 23, 2024](https://www.youtube.com/watch?v=ooU238RcOdo)
 
 ## Chatbot - LangGraph Quick Start
 
