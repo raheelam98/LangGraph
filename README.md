@@ -56,9 +56,9 @@ Autonomous systems that perform tasks, make decisions, and interact with users w
 [Class-06: LangGraph - Multiple Schemas, Filter & Trim Messages, and Introduction to RAG - Nov 21, 2024](https://www.youtube.com/watch?v=rBPZwQ7jlBo&list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA&index=7)
 
 
-**Module 2 ?? :**  5_chatbot_summarization.ipynb, 6_chatbot_external_memory.ipynb
+**Module 2 :**  5_chatbot_summarization.ipynb, 6_chatbot_external_memory.ipynb   (do it)
 
-[PIAIC GenAI Classes - Nov 22, 2024 ](https://www.youtube.com/watch?v=yd6mr-2SSIo)
+[Class07: LangGraph:- Messages Summarization, Short Term Local Memory with Threads/Checkpointers - Nov 22, 2024](https://www.youtube.com/watch?v=yd6mr-2SSIo&list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA&index=7&t=440s)
 
 **Module 2 :** 6.0_chatbot_external_memory, 
 
